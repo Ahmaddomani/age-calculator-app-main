@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- css files -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normaliz.css" />
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <div class="main-page">
+      <div class="content">
+        <!-- start inputes -->
+        <div class="inputs">
+          <!-- define error p when Date is not Valid -->
+          <p class="NotValidError">Should Be A Valid Date</p>
+          <div class="Day">
+            <label for="Day">DAY</label>
+            <input type="text" name="" id="1" maxlength="2" placeholder="DD" />
+            <span class="Error">Must be a valid day</span>
+          </div>
+          <!-- start Month -->
+          <div class="Month">
+            <label for="Month">MONTH</label>
+            <input type="text" name="" id="2" maxlength="2" placeholder="MM" />
+            <span class="Error">Must be a valid month</span>
+          </div>
+          <!-- end Month -->
+          <!-- start Year -->
+          <div class="Year">
+            <label for="Year">YEAR</label>
+            <input
+              type="text"
+              name=""
+              id="3"
+              maxlength="4"
+              placeholder="YYYY"
+            />
+            <span class="Error">Must be after 1000</span>
+          </div>
+          <!-- end Year -->
+        </div>
+        <!-- end inputes -->
+        <!-- start result div -->
+        <div class="result">
+          <div class="in_Years"><span class="birth-year">--</span>years</div>
+          <div class="in_Mothes"><span class="birth-month">--</span>months</div>
+          <div class="in_Days"><span class="birth-day">--</span>days</div>
+        </div>
+        <!-- end result div -->
+        <!-- start the arrow img  -->
+        <img src="assets/images/icon-arrow.svg" class="arrow" alt="" />
+        <!-- end the arrow img  -->
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/Ahmaddomani">AhmadAldomani</a>.
+      <!--  Start js file -->
+      <script src="js/main.js"></script>
+      <!--  End js file -->
+    </div>
+  </body>
+</html>
+<!-- ---------------------------------------------The End------------------------------------------ -->
